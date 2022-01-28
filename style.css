@@ -1,0 +1,46 @@
+body {
+    background-image:url(maths.jpg);
+
+}
+
+.result {
+  width: 165px;
+  height: 60px;
+  border: 5px;
+  color: red;
+  background-color: white;
+  border-color: black;
+  border-style: dashed;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+#text {
+  width: 260px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#equals {
+  margin-top: 9px;
+  display: block;
+  width: 165px;
+}
+.h1 {
+    color: whitesmoke;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+#quote {
+  background-color: bisque;
+  max-width: 500px;
+}
