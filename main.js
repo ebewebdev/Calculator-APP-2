@@ -6,7 +6,7 @@ let data = {
 };
 
 function splitUserInput(stringData) {
-  let splittedData = stringData.split(/([*\/+-])/);
+   let splittedData = stringData.match(/[()*\/+-]|\d+(?:\.\d+)?/g)
   console.log(splittedData); // ['2','+','4','-','7']
   data.splittedInput = splittedData;
   console.log(typeof splittedData); //object
